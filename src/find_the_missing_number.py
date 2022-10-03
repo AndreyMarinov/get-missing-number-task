@@ -8,6 +8,3 @@ def get_missing_number(arr) -> list:
     :return: list formed from the missing numbers in the array
     '''
     return [item for item in range(arr [0], arr [-1]+1) if item not in arr]
-
-
-print(get_missing_number(arr = [10, 11, 12, 16, 17, 18, 19, 20]))
